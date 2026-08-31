@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Async JavaScript Sandbox</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- axios via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+  <h1>Async JavaScript Sandbox</h1>
+
+  <section>
+    <h2>1. Delay Demo</h2>
+    <button id="btn-delay">Run wait(2000)</button>
+    <output id="out-delay"></output>
+  </section>
+
+  <section>
+    <h2>2. Promise Chain</h2>
+    <button id="btn-chain">Run Chain</button>
+    <output id="out-chain"></output>
+  </section>
+
+  <section>
+    <h2>3. Async / Await Rewrite</h2>
+    <button id="btn-async">Run Async</button>
+    <output id="out-async"></output>
+  </section>
+
+  <section>
+    <h2>4. Fetch a Joke</h2>
+    <button id="btn-fetch">Fetch with fetch()</button>
+    <output id="out-fetch"></output>
+  </section>
+
+  <section>
+    <h2>5. Axios Version</h2>
+    <button id="btn-axios">Fetch with axios</button>
+    <output id="out-axios"></output>
+  </section>
+
+  <section>
+    <h2>6. Parallel Requests</h2>
+    <button id="btn-parallel">Fetch 3 Jokes</button>
+    <output id="out-parallel"></output>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
